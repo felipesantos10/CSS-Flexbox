@@ -1,0 +1,39 @@
+.row {
+    flex-direction: row;
+  }
+  .row-reverse {
+    flex-direction: row-reverse;
+  }
+  .column {
+    flex-direction: column;
+  }
+  .column-reverse {
+    flex-direction: column-reverse;
+  }
+  /* Flex Container */
+  .container {
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    border: 1px solid #ccc;
+  }
+  /* Flex Item */
+  .item {
+    /* O flex: 1; é necessário para que cada item se expanda ocupando o tamanho máximo do container. */
+    flex: 1;
+    margin: 5px;
+    background: rgb(20, 167, 81);
+    text-align: center;
+    font-size: 1.5em;
+  }
+  h1 {
+    text-align: center;
+    margin: 20px 0 0 0;
+    font-size: 1.25rem;
+    font-weight: normal;
+    color: rgb(26, 25, 25);
+  }
+  body div{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(255, 255, 255);
+  }

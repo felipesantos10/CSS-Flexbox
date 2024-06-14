@@ -1,3 +1,4 @@
+/*Estilos Gerais*/
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
 body{
@@ -18,11 +19,7 @@ img{
 
 .info-bg{
     background: #122ab2;
-    color: #ffffff;
-    
-    
-    
-    
+    color: #ffffff;   
 }
 
 .info-adicionais{  
@@ -35,7 +32,6 @@ img{
     margin: 0 auto;
     font-size: 1rem;
     font-weight: 300;
-
 }
 
 header{
@@ -141,17 +137,13 @@ header{
 /*Produtos*/
 .produtos{
     max-width: 960px;
-    margin: 60px auto;
-
-    
-    
+    margin: 60px auto;  
 }
 
 .produtos h2{
     font-size: 2.875rem;
     font-weight: 500;
-    margin: 0px 10px 60px 10px;
-    
+    margin: 0px 10px 60px 10px;  
 }
 
 
@@ -159,9 +151,7 @@ header{
 .produtos-tipos{
     display: flex;
     align-items: flex-end;  
-    flex-wrap: wrap;
-    
-   
+    flex-wrap: wrap; 
 }
 
 .produtos-tipos div{
@@ -261,8 +251,6 @@ header{
     width: 6px;
     height: 6px;
     border-radius: 50%;
-
-
 }
 
 .pagament0-item a{
@@ -276,13 +264,14 @@ header{
     margin: 20px 0px;
     color: rgb(255, 255, 255);
     text-transform: uppercase;
-
 }
 
 .pagament0-item a:hover{
     background: #4e4e4e;
     transition: 0.3s;
 }
+
+/*Qualidades*/
 
 .qualidade{
     max-width: 960px; 
@@ -309,8 +298,6 @@ header{
     width: 8px;
     height: 30px;
     margin-right: 10px;
-
-
 }
 
 .red h2::before{
@@ -340,28 +327,13 @@ header{
     color: #7c7c7c;
 }
 
-footer{
-    display: flex;
-    background: #2c70ff;
-    height: 100px;
-    align-items: center;
-}
-
-footer p{
-    flex: 1;
-    text-align: center;
-    font-size: 1.25em;
-    color: #ffffff;
-}
-
+/*Formulario*/
 .jornal{
     background: #f7f7f7;
     padding: 60px calc((100% - 960px) / 2);
     display: flex;
     flex-wrap: wrap;
     margin:0 auto;
-
-
 }
 
 .info-jornais{
@@ -415,6 +387,19 @@ border-radius: 0px;
     margin: 0 10px;
     align-self: center;
     display: flex;
-    
-   
+}
+
+/*Footer*/
+footer{
+    display: flex;
+    background: #2c70ff;
+    height: 100px;
+    align-items: center;
+}
+
+footer p{
+    flex: 1;
+    text-align: center;
+    font-size: 1.25em;
+    color: #ffffff;
 }
